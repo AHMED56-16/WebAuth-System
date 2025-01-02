@@ -1,0 +1,67 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and page styling */
+body {
+    background-color: #FFFAEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Title Styling */
+h1 {
+    color: #578E7E;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Paragraph Styling */
+p {
+    color: #3D3D3D;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Link Styling */
+a {
+    color: #578E7E;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #3D3D3D;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p, a {
+        font-size: 1rem;
+    }
+}
